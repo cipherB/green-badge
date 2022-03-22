@@ -32,7 +32,7 @@ const LandingPage = () => {
       <header id="header" className="fixed-top">
         <div className="container d-flex align-items-center justify-content-between">
 
-          <h1 className="logo"><a href="index.html">OnePage</a></h1>
+          <h1 className="logo"><a href="index.html">Green Badge</a></h1>
           {/* <!-- Uncomment below if you prefer to use an image logo --> */}
           {/* <!-- <a href="index.html" className="logo"><img src="assets/img/logo.png" alt="" className="img-fluid"></a>--> */}
 
