@@ -87,8 +87,8 @@ const LandingPage = () => {
             <div className="row justify-content-center">
             
               <div className="col-xl-7 col-lg-9 text-center">
-                  <h1>One Page Bootstrap Website Template</h1>
-                  <h2>We are team of talented designers</h2>
+                  <h1>Green Badge</h1>
+                  <h2>We take ambitious brands, to the next level.</h2>
               </div>
             </div>
             <div className="text-center">
@@ -96,13 +96,17 @@ const LandingPage = () => {
             </div>
           </InViewAnimateTop>
 
-          <div className="row icon-boxes">
+          <div className="row icon-boxes d-flex justify-content-center">
+            <InViewAnimateTop>
+              <h1 style={{marginTop:101}} >A comprehensive approach for forward thinking brands</h1>
+              <p>The Green Badge goes above and beyond to create impactful  digital experiences that pulls the right people. </p>
+            </InViewAnimateTop>
             <div className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
               <InViewAnimateGrow>
                 <div className="icon-box">
                   <div className="icon"><i className="ri-stack-line"></i></div>
-                  <h4 className="title"><a href="">Lorem Ipsum</a></h4>
-                  <p className="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                  <h4 className="title"><a href="">Complexity without confusion</a></h4>
+                  <p className="description">We use industry standard techniques to create beautiful experiences that speak for themsleves. These techniques are masked in astetically pleasing designs</p>
                 </div>
               </InViewAnimateGrow>
             </div>
@@ -111,8 +115,8 @@ const LandingPage = () => {
               <InViewAnimateGrow>
                 <div className="icon-box">
                   <div className="icon"><i className="ri-palette-line"></i></div>
-                  <h4 className="title"><a href="">Sed ut perspiciatis</a></h4>
-                  <p className="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+                  <h4 className="title"><a href="">Walking hand in hand with you</a></h4>
+                  <p className="description">Taking the guesswork out of projects, we give crystal clear estimates, step by step updates and deliverables. No unexpected situations, ever.</p>
                 </div>
               </InViewAnimateGrow>
             </div>
@@ -121,13 +125,13 @@ const LandingPage = () => {
               <InViewAnimateGrow>
                 <div className="icon-box">
                   <div className="icon"><i className="ri-command-line"></i></div>
-                  <h4 className="title"><a href="">Magni Dolores</a></h4>
-                  <p className="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+                  <h4 className="title"><a href="">Steady and focused improvements</a></h4>
+                  <p className="description">From brand perception, through to integrated e-commerce, mobile and web apps, our teams work to polish your brand to make it pleassantly appealing to your target market.</p>
                 </div>
               </InViewAnimateGrow>
             </div>
 
-            <div className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="500">
+            {/* <div className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="500">
               <InViewAnimateGrow>
                 <div className="icon-box">
                   <div className="icon"><i className="ri-fingerprint-line"></i></div>
@@ -135,7 +139,7 @@ const LandingPage = () => {
                   <p className="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
                 </div>
               </InViewAnimateGrow>
-            </div>
+            </div> */}
 
           </div>
         </div>
@@ -151,10 +155,19 @@ const LandingPage = () => {
             <InViewAnimateTop>
               <div className="section-title">
                 <h2>About Us</h2>
-                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. </p>
+                <div className=' row content'>
+                  <p style={{fontSize:16, marginBottom:16}} >
+                    We’re ‘The Green Badge’, a design, technology, marketing and branding agency. 
+                    We specialize in creative web design, performance 
+                    driven development (mobile and web) and branding that makes a difference.
+                  </p>
+                  <div>
+                    <a href="#" className="btn-learn-more">Learn More</a>
+                  </div>
+                </div>
               </div>
 
-              <div className="row content">
+              {/* <div className="row content">
                 <div className="col-lg-6">
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
@@ -174,7 +187,7 @@ const LandingPage = () => {
                   </p>
                   <a href="#" className="btn-learn-more">Learn More</a>
                 </div>
-              </div>
+              </div> */}
             </InViewAnimateTop>
 
           </div>
@@ -407,8 +420,8 @@ const LandingPage = () => {
 
             <InViewAnimateTop>
               <div className="section-title">
-                <h2>Sevices</h2>
-                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                <h2>Services</h2>
+                <p>We explore all the different ways we can help grow your brand. You’ll find us equally at home with mobile as we are with the web.</p>
               </div>
             </InViewAnimateTop>
 
@@ -422,7 +435,7 @@ const LandingPage = () => {
                       </svg>
                       <i className="bx bxl-dribbble"></i>
                     </div>
-                    <h4><a href="">Lorem Ipsum</a></h4>
+                    <h4><a href="">Full scale branding</a></h4>
                     <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
                   </div>
                 </InViewAnimateGrow>
@@ -437,7 +450,7 @@ const LandingPage = () => {
                       </svg>
                       <i className="bx bx-file"></i>
                     </div>
-                    <h4><a href="">Sed Perspiciatis</a></h4>
+                    <h4><a href="">Mobile development</a></h4>
                     <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
                   </div>
                 </InViewAnimateGrow>
@@ -452,7 +465,7 @@ const LandingPage = () => {
                       </svg>
                       <i className="bx bx-tachometer"></i>
                     </div>
-                    <h4><a href="">Magni Dolores</a></h4>
+                    <h4><a href="">Web development</a></h4>
                     <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
                   </div>
                 </InViewAnimateGrow>
@@ -467,7 +480,7 @@ const LandingPage = () => {
                       </svg>
                       <i className="bx bx-layer"></i>
                     </div>
-                    <h4><a href="">Nemo Enim</a></h4>
+                    <h4><a href="">Mobile UI / UX</a></h4>
                     <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
                   </div>
                 </InViewAnimateGrow>
@@ -482,7 +495,7 @@ const LandingPage = () => {
                       </svg>
                       <i className="bx bx-slideshow"></i>
                     </div>
-                    <h4><a href="">Dele Cardo</a></h4>
+                    <h4><a href="">Web UI / UX</a></h4>
                     <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
                   </div>
                 </InViewAnimateGrow>
@@ -514,9 +527,14 @@ const LandingPage = () => {
           <div className="container" data-aos="zoom-in">
             <InViewAnimateGrow>
               <div className="text-center">
-                <h3>Call To Action</h3>
-                <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <a className="cta-btn" href="#">Call To Action</a>
+                <h3>What makes us unique?</h3>
+                <ul style={{listStyle:"none", color:"#fff"}} >
+                  <li> We make your unique selling propostion stands out</li>
+                  <li> Proper display of your brand’s voice in a memorable way</li>
+                  <li> Designing the perfect logo for you</li>
+                </ul>
+                
+                {/* <a className="cta-btn" href="#">Call To Action</a> */}
               </div>
             </InViewAnimateGrow>
           </div>
@@ -530,7 +548,7 @@ const LandingPage = () => {
             <InViewAnimateTop>
               <div className="section-title">
                 <h2>Portfolio</h2>
-                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                <p>Take a peek at our previous works</p>
               </div>
             </InViewAnimateTop>
 
@@ -937,7 +955,7 @@ const LandingPage = () => {
 
             <div className="section-title">
               <h2>Contact</h2>
-              <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+              <p>We would love to discuss your project and help answer any questions you ay have. Give us some information below and we’ll respond with a ballpark estimate and futher questions.</p>
             </div>
 
             <div>
@@ -1038,11 +1056,11 @@ const LandingPage = () => {
               <div className="col-lg-3 col-md-6 footer-links">
                 <h4>Our Services</h4>
                 <ul>
-                  <li><i className="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-                  <li><i className="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-                  <li><i className="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-                  <li><i className="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-                  <li><i className="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+                  <li><i className="bx bx-chevron-right"></i> <a href="#">Full scale branding</a></li>
+                  <li><i className="bx bx-chevron-right"></i> <a href="#">Mobile development</a></li>
+                  <li><i className="bx bx-chevron-right"></i> <a href="#">Web development</a></li>
+                  <li><i className="bx bx-chevron-right"></i> <a href="#">Mobile UI / UX</a></li>
+                  <li><i className="bx bx-chevron-right"></i> <a href="#">Web UI / UX</a></li>
                 </ul>
               </div>
 
@@ -1062,14 +1080,14 @@ const LandingPage = () => {
 
           <div className="me-md-auto text-center text-md-start">
             <div className="copyright">
-              &copy; Copyright <strong><span>OnePage</span></strong>. All Rights Reserved
+              &copy; Copyright <strong><span>Green Badge</span></strong>. All Rights Reserved
             </div>
             <div className="credits">
               {/* <!-- All the links in the footer should remain intact. -->
               <!-- You can delete the links only if you purchased the pro version. -->
               <!-- Licensing information: https://bootstrapmade.com/license/ -->
               <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/onepage-multipurpose-bootstrap-template/ --> */}
-              Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+              Designed by <a href="#">Moi</a>
             </div>
           </div>
           <div className="social-links text-center text-md-right pt-3 pt-md-0">
